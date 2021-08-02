@@ -28,7 +28,7 @@ Im Reza Sobhgol :raised_hands:
 I started learning JavaScript 2 weeks ago and because Im a Cheerful Front-end Developer (As you can see in my profile Bio :grin: :stuck_out_tongue_winking_eye:) ;
 i choose to develop some Mini project that they are Useful and have a great UI.
 
-##Acknowledgments 
+## Acknowledgments 
 Inspiration , etc .
 * [Saheb mohammadi](https://github.com/sahebmohammadi) as my teacher
 * [UI Design Daily](https://www.uidesigndaily.com) 
