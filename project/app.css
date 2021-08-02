@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400;1,500&display=swap");
+.fontM {
+  font-family: "Montserrat", sans-serif;
+}
+.font500 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.backdrop {
+  opacity: 1;
+  transition: 1s opacity;
+}
+.quiz-container {
+  overflow: hidden;
+  height: 600px;
+  width: 330px;
+  transition: 1s ease-out;
+}
+.bgc {
+  transition: backgroundColor 1s ease-out;
+  height: 750px;
+}
+.quiz-header {
+  background: rgb(91, 209, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(91, 209, 225, 1) 0%,
+    rgba(0, 176, 255, 1) 100%
+  );
+  font-weight: 500;
+}
+#perv {
+  cursor: default;
+  opacity: 0;
+  transition: opacity ease-in-out 0.2s;
+}
+.quizNumber small {
+  color: #778790;
+}
+.progressGrad {
+  background: rgb(91, 209, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(91, 209, 225, 1) 0%,
+    rgba(0, 176, 255, 1) 100%
+  );
+}
+.quizNumText {
+  margin-left: 3px;
+}
+.falseColor {
+  color: #f05228;
+}
+.trueColor {
+  color: #6ac259;
+}
+.question {
+  height: 110px;
+  color: #28bae9;
+  background-color: #dfeefd9d;
+}
+.answares {
+  height: 230px;
+}
+.AS {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  transition: 0.2s;
+}
+.AS:hover {
+  border: solid 3px #28bae9;
+}
+
+.fontR {
+  font-family: "Roboto Mono", monospace;
+}
+.answareCenter {
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pro {
+  transition: 0.8s ease-in-out;
+  width: 0%;
+}
+
+.change {
+  display: none;
+}
+.finish {
+  display: none;
+  height: 95px;
+}
+.finishbtn {
+  box-shadow: 0 0 15px 2px #28b9e94d;
+  transition: 0.3s;
+}
+.finishbtn:hover {
+  background-color: #28b9e944;
+}
+.modal {
+  user-select: none;
+  background-color: #231e3e;
+  width: 485px;
+  height: 440px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 1s opacity;
+  z-index: -1;
+}
+
+.score {
+  background-color: #282547;
+}
+.retry {
+  background-image: linear-gradient(-45deg, #6317ae 50%, #672cb9 50%);
+}
+.designer {
+  color: #d0cbf3;
+}
